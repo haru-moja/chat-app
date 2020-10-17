@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+width: 100vw;
+height: 100vh;
+}
+
+.side-bar {
+  width: 300px;
+}
+
+.chat {
+  width: calc(100% - 300px);
+}
+
+.side-head {
+  height: 100px;
+  background-color: #253141;
+  padding: 0 20px;
+}
+.side-menu {
+  height: calc(100vh - 100px);
+  background-color: #2F3E51;
+  padding: 0 20px;
+}
+
+.chat-head {
+  height: 100px;
+  background-color: #FFFFFF;
+  padding: 0 40px;
+}
+.chat-space {
+  height: calc(100vh - 190px);
+  background-color: #FAFAFA;
+  padding: 46px 40px 0;
+}
+.contact-form {
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
